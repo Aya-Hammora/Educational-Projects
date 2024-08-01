@@ -218,6 +218,8 @@ border-radius: 10%;
     margin-top: 8%;
     background-image: url(../imgs/pro.jpg);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: -3;
 }
 .act{
@@ -339,7 +341,6 @@ border-radius: 10%;
     background-color: rgb(122, 122, 223);
 }
 .contact{
-    margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -347,9 +348,9 @@ border-radius: 10%;
 }
 .contact img{
     display: block;
-    margin-left: 25px;
     width: 400px;
     height: 250px;
+    margin: auto;
 }
 .contact i{
     margin-top: 10px;
